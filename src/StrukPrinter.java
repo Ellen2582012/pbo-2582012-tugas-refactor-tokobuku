@@ -1,2 +1,3 @@
-public class StrukPrinter {
+public interface StrukPrinter {
+    void cetak(String teks);
 }

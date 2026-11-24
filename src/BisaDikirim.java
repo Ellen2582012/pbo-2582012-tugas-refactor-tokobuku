@@ -1,2 +1,3 @@
-public class BisaDikirim {
+public interface BisaDikirim {
+    int getBeratGram();
 }

@@ -1,2 +1,11 @@
-public class EWallet {
+public class EWallet implements MetodeBayar {
+    @Override
+    public String namaMetode() {
+        return "E-Wallet (diskon 2%)";
+    }
+
+    @Override
+    public int totalBayar(int totalBelanja) {
+        return totalBelanja * 98 / 100;
+    }
 }
