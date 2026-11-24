@@ -1,2 +1,3 @@
-public class RiwayatPenyimpan {
+public interface RiwayatPenyimpan {
+    void simpan(String baris);
 }
